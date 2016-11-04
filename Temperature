@@ -1,0 +1,27 @@
+package Day101;
+import javax.swing.JOptionPane;
+public class Temperature {
+/*
+	public static void main(String[] args) {
+		// This code takes a celsius temperature and converts to Farenheit
+		double celsius;
+		double fahrenheit;
+		System.out.println("Please enter the temperature in celcius");
+		//celsius = JOptionPane.showInputDialog("Please enter the temperature in celcius", null);
+		celsius = Double.parseDouble(celsius);
+		fahrenheit = 9.0/5.0 * celsius + 32;
+JOptionPane.showMessageDialog(null, "celcius is: "+celsius +" fahrenheit is: "+ fahrenheit);
+											}
+
+						}
+*/
+
+public static void main(String[] args){
+double celsius = 0; //i am unable to run code without this declaration, however, it doesn't make the calculation right
+double fahrenheit;
+JOptionPane.showInputDialog(null, "Please enter temp in Celsius");
+
+fahrenheit = 9.0/5.0 * celsius + 32;
+JOptionPane.showMessageDialog(null, "Celsius is: " + celsius + "fahrenheit is : " + fahrenheit);
+}
+}
